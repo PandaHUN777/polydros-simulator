@@ -8,7 +8,9 @@ Reads `polydros_master_set_v1.xlsx` from the repo root and generates `simulation
 
 ### Prerequisites
 
-The script requires the `openpyxl` package (already installed in your virtual environment).
+The script requires `openpyxl`, which is listed in the repository root's
+`requirements.txt`. Install the dependencies with
+`python -m pip install -r requirements.txt` from the repository root.
 
 ### Usage
 
@@ -66,7 +68,8 @@ Whenever you update the Excel master set:
 
 **Import "openpyxl" could not be resolved**
 - Install it: `.venv\Scripts\python.exe -m pip install openpyxl`
-- The package should already be installed if you ran the export script creation step
+- Install the repository dependencies from the root with
+  `python -m pip install -r requirements.txt`.
 
 **No cards exported**
 - Check that the Excel file has data starting from row 2
