@@ -12,4 +12,4 @@ black>=26.5.1
 mypy>=1.8
 pre-commit>=3.3
 coverage>=7.0
-safety>=2.0
+safety>=3.8.1
